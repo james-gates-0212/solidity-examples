@@ -7,6 +7,7 @@
     "titleBar.activeBackground": "#fc9d26",
     "titleBar.inactiveBackground": "#fc9d26cc"
   },
+  "editor.detectIndentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[typescriptreact]": {
@@ -23,7 +24,8 @@
   },
   "[solidity]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
   },
   "editor.tabSize": 2,
   "cSpell.words": []
