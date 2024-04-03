@@ -1,0 +1,32 @@
+{
+  "name": "solidity-examples",
+  "version": "0.1.0",
+  "description": "This collection features a diverse range of real-world smart contract examples and projects written in Solidity, covering decentralized finance, NFTs, DAOs, gaming, supply chain management, tokenization, prediction markets, and identity verification systems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-gates-0212/solidity-examples.git"
+  },
+  "keywords": [
+    "solidity",
+    "examples",
+    "ethereum"
+  ],
+  "author": "James Gates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james-gates-0212/solidity-examples/issues"
+  },
+  "homepage": "https://github.com/james-gates-0212/solidity-examples#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  }
+}
