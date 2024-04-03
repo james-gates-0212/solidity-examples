@@ -21,6 +21,12 @@ This is a compilation of Solidity examples that I worked on while learning about
 
 Nearly all the smart contracts are accompanied by tests, so feel free to experiment with them to gain a deeper understanding of the Solidity programming language and the business logic within the contracts themselves.
 
+## Table of Contents
+
+### Basic
+
+1. [Hello World](basic/01-hello-world/contracts/)
+
 ## Contributors
 
 We enthusiastically welcome pull requests from all contributors. By actively participating in submitting examples, we firmly believe that others will find them invaluable when embarking on their Solidity journey.
@@ -44,7 +50,7 @@ Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/
 
 e.g.
 
-```commit
+```
 <type>[scope]: <subject>
 [body]
 [footer]
@@ -54,7 +60,7 @@ e.g.
 
 `type` should be one of belows.
 
-```bash
+```
 add
 adopt
 apply
