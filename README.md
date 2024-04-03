@@ -31,6 +31,13 @@ We enthusiastically welcome pull requests from all contributors. By actively par
 
 The software is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## Preparation
+
+```bash
+npm i -g pnpm
+pnpm install
+```
+
 ## Git commit
 
 Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for your commits.
@@ -54,6 +61,7 @@ apply
 build
 chore
 config
+delete
 docs
 feat
 fix
@@ -61,6 +69,9 @@ init
 refactor
 remove
 style
+test
+update
+upgrade
 ```
 
 ### Subject
@@ -68,25 +79,32 @@ style
 `subject` should include one of emojis as belows.
 
 ♻️
+⚙️
 ⚡️
 ✅
 ✏️
 ✨
 ❤️
-⬆️
-⬇️
 ⭐️
 🌈
 🎁
 🎉
 🏆
+🏷️
 🐞
 👌
-📓
-📝
+💎
+💢
+💫
+💬
+💯
+💰
+💲
+📚
 📦
-🔀
 🔖
+🗨️
+🪙
 🚀
 🚧
 🚨
