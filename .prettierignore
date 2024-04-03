@@ -2,11 +2,12 @@
 .DS_Store
 .env
 .gitignore
-.prettierignore
 .next
+.prettierignore
 build
 dist
 node_modules
+pnpm-lock.yaml
 
 # Ignore files
 *.gif
