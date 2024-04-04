@@ -25,12 +25,12 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 
 ### Basic
 
-1. [Hello World](basic/01-hello-world/contracts/)
-2. [First App](basic/02-first-app/contracts/)
-3. [Primary Data Types](basic/03-primary-data-types/contracts/)
-4. [Variables](basic/04-variables/contracts/)
-5. [Constants](basic/05-constants/contracts/)
-6. [Immutable](basic/06-immutable/contracts/)
+1. [Hello World](basic/01-hello-world/contracts/hello-world.sol)
+2. [First App](basic/02-first-app/contracts/first-app.sol)
+3. [Primary Data Types](basic/03-primary-data-types/contracts/primary-data-types.sol)
+4. [Variables](basic/04-variables/contracts/variables.sol)
+5. [Constants](basic/05-constants/contracts/constants.sol)
+6. [Immutable](basic/06-immutable/contracts/immutable.sol)
 
 ## Contributors
 
