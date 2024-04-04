@@ -31,6 +31,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 4. [Variables](basic/04-variables/contracts/variables.sol)
 5. [Constants](basic/05-constants/contracts/constants.sol)
 6. [Immutable](basic/06-immutable/contracts/immutable.sol)
+7. [Reading & Writing to a State Variable](basic/07-reading-and-writing-to-a-state-variable/contracts/simple-storage.sol)
 
 ## Contributors
 
