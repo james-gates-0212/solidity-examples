@@ -35,6 +35,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 8. [Ether and Wei](basic/08-ether-and-wei/contracts/ether-units.sol)
 9. [Gas and Gas Price](basic/09-gas-and-gas-price/contracts/gas.sol)
 10. [If and Else](basic/10-if-and-else/contracts/if-else.sol)
+11. [For and While Loop](basic/11-for-and-while-loop/contracts/loop.sol)
 
 ## Contributors
 
