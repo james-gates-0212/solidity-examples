@@ -37,6 +37,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 10. [If and Else](basic/10-if-and-else/contracts/if-else.sol)
 11. [For and While Loop](basic/11-for-and-while-loop/contracts/loop.sol)
 12. [Mapping](basic/12-mapping/contracts/mapping.sol)
+13. [Array](basic/13-array/contracts/Array.sol)
 
 ## Contributors
 
