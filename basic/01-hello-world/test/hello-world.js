@@ -1,19 +1,28 @@
-const HelloWorld = artifacts.require('HelloWorld');
+const HelloWorldContract = artifacts.require('HelloWorld');
 
 contract('HelloWorld', (accounts) => {
-  it('should display `Hello, World!`', async () => {
-    const helloWorldInstance = await HelloWorld.deployed();
-    const message = await helloWorldInstance.getMessage.call();
+  let helloWorldContractInstance;
 
-    assert.equal(message.valueOf(), 'Hello, World!', "`Hello, World!` wasn't displayed");
+  before(async () => {
+    helloWorldContractInstance = await HelloWorldContract.deployed();
   });
+
+  it('should display `Hello, World!`', async () => {
+    const message = await helloWorldContractInstance.getMessage();
+
+    // Assert the result
+    assert.equal(message, 'Hello, World!', "`Hello, World!` wasn't displayed");
+  });
+
   it('should display `Welcome to solidity!`', async () => {
-    const helloWorldInstance = await HelloWorld.deployed();
+    const initialValue = await helloWorldContractInstance.getMessage();
 
-    await helloWorldInstance.setMessage.call('Welcome to solidity!');
+    await helloWorldContractInstance.setMessage('Welcome to solidity!');
 
-    const message = await helloWorldInstance.getMessage.call();
+    const message = await helloWorldContractInstance.getMessage();
 
-    assert.equal(message.valueOf(), 'Hello, World!', "`Hello, World!` wasn't displayed");
+    // Assert the result
+    assert.equal(message, 'Welcome to solidity!', "`Welcome to solidity!` wasn't displayed");
+    assert.notEqual(message, initialValue, "message wasn't updated");
   });
 });
