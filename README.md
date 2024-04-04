@@ -28,12 +28,14 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 1. [Hello World](basic/01-hello-world/contracts/)
 2. [First App](basic/02-first-app/contracts/)
 3. [Primary Data Types](basic/03-primary-data-types/contracts/)
+4. [Variables](basic/04-variables/contracts/)
 
 ## Contributors
 
 We enthusiastically welcome pull requests from all contributors. By actively participating in submitting examples, we firmly believe that others will find them invaluable when embarking on their Solidity journey.
 
-- [James Gates](https://james-gates-portfolio.vercel.app)
+[![@james-gates-0212](https://github.com/james-gates-0212.png)](https://github.com/james-gates-0212)
+[![@clive-goldminer](https://github.com/clive-goldminer.png)](https://github.com/clive-goldminer)
 
 ## License
 
