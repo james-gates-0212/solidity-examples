@@ -30,6 +30,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 3. [Primary Data Types](basic/03-primary-data-types/contracts/)
 4. [Variables](basic/04-variables/contracts/)
 5. [Constants](basic/05-constants/contracts/)
+6. [Immutable](basic/06-immutable/contracts/)
 
 ## Contributors
 
