@@ -26,6 +26,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 ### Basic
 
 1. [Hello World](basic/01-hello-world/contracts/)
+2. [First App](basic/02-first-app/contracts/)
 
 ## Contributors
 
