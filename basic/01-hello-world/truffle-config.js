@@ -114,7 +114,7 @@ module.exports = {
         //    enabled: false,
         //    runs: 200
         //  },
-        evmVersion: 'london',
+        evmVersion: 'paris',
       },
     },
   },
