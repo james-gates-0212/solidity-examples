@@ -34,6 +34,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 7. [Reading & Writing to a State Variable](basic/07-reading-and-writing-to-a-state-variable/contracts/simple-storage.sol)
 8. [Ether and Wei](basic/08-ether-and-wei/contracts/ether-units.sol)
 9. [Gas and Gas Price](basic/09-gas-and-gas-price/contracts/gas.sol)
+10. [If and Else](basic/10-if-and-else/contracts/if-else.sol)
 
 ## Contributors
 
