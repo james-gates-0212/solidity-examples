@@ -42,6 +42,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 15. [Structs :construction:](basic/15-structs/contracts/Structs.sol)
 16. [Data Locations - Storage, Memory, and Calldata](basic/16-data-locations/contracts/DataLocations.sol)
 17. [Transient Storage :construction:](basic/17-transient-storage/contracts/TransientStorage.sol)
+18. [Function](basic/18-function/contracts/Function.sol)
 
 ## Contributors
 
