@@ -39,6 +39,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 12. [Mapping](basic/12-mapping/contracts/Mapping.sol)
 13. [Array](basic/13-array/contracts/Array.sol)
 14. [Enum](basic/14-enum/contracts/Enum.sol)
+15. [Structs](basic/15-structs/contracts/Structs.sol)
 
 ## Contributors
 
