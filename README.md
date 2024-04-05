@@ -44,6 +44,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 17. [Transient Storage :construction:](basic/17-transient-storage/contracts/TransientStorage.sol)
 18. [Function](basic/18-function/contracts/Function.sol)
 19. [View and Pure Functions](basic/19-view-and-pure-functions/contracts/ViewAndPure.sol)
+20. [Error](basic/20-error/contracts/Error.sol)
 
 ## Contributors
 
