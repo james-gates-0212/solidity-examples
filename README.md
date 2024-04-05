@@ -38,6 +38,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 11. [For and While Loop](basic/11-for-and-while-loop/contracts/Loop.sol)
 12. [Mapping](basic/12-mapping/contracts/Mapping.sol)
 13. [Array](basic/13-array/contracts/Array.sol)
+14. [Enum](basic/14-enum/contracts/Enum.sol)
 
 ## Contributors
 
