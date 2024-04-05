@@ -25,18 +25,18 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 
 ### Basic
 
-1. [Hello World](basic/01-hello-world/contracts/hello-world.sol)
-2. [First App](basic/02-first-app/contracts/first-app.sol)
-3. [Primary Data Types](basic/03-primary-data-types/contracts/primary-data-types.sol)
-4. [Variables](basic/04-variables/contracts/variables.sol)
-5. [Constants](basic/05-constants/contracts/constants.sol)
-6. [Immutable](basic/06-immutable/contracts/immutable.sol)
-7. [Reading & Writing to a State Variable](basic/07-reading-and-writing-to-a-state-variable/contracts/simple-storage.sol)
-8. [Ether and Wei](basic/08-ether-and-wei/contracts/ether-units.sol)
-9. [Gas and Gas Price](basic/09-gas-and-gas-price/contracts/gas.sol)
-10. [If and Else](basic/10-if-and-else/contracts/if-else.sol)
-11. [For and While Loop](basic/11-for-and-while-loop/contracts/loop.sol)
-12. [Mapping](basic/12-mapping/contracts/mapping.sol)
+1. [Hello World](basic/01-hello-world/contracts/HelloWorld.sol)
+2. [First App](basic/02-first-app/contracts/FirstApp.sol)
+3. [Primary Data Types](basic/03-primary-data-types/contracts/PrimaryDataTypes.sol)
+4. [Variables](basic/04-variables/contracts/Variables.sol)
+5. [Constants](basic/05-constants/contracts/Constants.sol)
+6. [Immutable](basic/06-immutable/contracts/Immutable.sol)
+7. [Reading & Writing to a State Variable](basic/07-reading-and-writing-to-a-state-variable/contracts/SimpleStorage.sol)
+8. [Ether and Wei](basic/08-ether-and-wei/contracts/EtherUnits.sol)
+9. [Gas and Gas Price](basic/09-gas-and-gas-price/contracts/Gas.sol)
+10. [If and Else](basic/10-if-and-else/contracts/IfElse.sol)
+11. [For and While Loop](basic/11-for-and-while-loop/contracts/Loop.sol)
+12. [Mapping](basic/12-mapping/contracts/Mapping.sol)
 13. [Array](basic/13-array/contracts/Array.sol)
 
 ## Contributors
