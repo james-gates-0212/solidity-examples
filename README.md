@@ -39,8 +39,9 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 12. [Mapping](basic/12-mapping/contracts/Mapping.sol)
 13. [Array](basic/13-array/contracts/Array.sol)
 14. [Enum](basic/14-enum/contracts/Enum.sol)
-15. [Structs](basic/15-structs/contracts/Structs.sol)
+15. [Structs :construction:](basic/15-structs/contracts/Structs.sol)
 16. [Data Locations - Storage, Memory, and Calldata](basic/16-data-locations/contracts/DataLocations.sol)
+17. [Transient Storage :construction:](basic/17-transient-storage/contracts/TransientStorage.sol)
 
 ## Contributors
 
@@ -62,7 +63,8 @@ pnpm install
 
 ## Git commit
 
-Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for your commits.
+> [!NOTE]\
+> Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for your commits.
 
 e.g.
 
@@ -74,7 +76,8 @@ e.g.
 
 ### Types
 
-`type` should be one of belows.
+> [!IMPORTANT]\
+> `type` should be one of belows.
 
 ```
 add
@@ -98,7 +101,8 @@ upgrade
 
 ### Subject
 
-`subject` should include one of emojis as belows.
+> [!IMPORTANT]\
+> `subject` should include one of emojis as belows.
 
 ♻️
 ⚙️
