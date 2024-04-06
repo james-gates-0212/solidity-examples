@@ -48,6 +48,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 21. [Function Modifier](basic/21-function-modifier/contracts/FunctionModifier.sol)
 22. [Events](basic/22-events/contracts/Event.sol)
 23. [Constructor](basic/23-constructor/contracts/Constructor.sol)
+24. [Inheritance](basic/24-inheritance/contracts/Inheritance.sol)
 
 ## Contributors
 
