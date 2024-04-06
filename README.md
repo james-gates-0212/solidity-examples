@@ -49,6 +49,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 22. [Events](basic/22-events/contracts/Event.sol)
 23. [Constructor](basic/23-constructor/contracts/Constructor.sol)
 24. [Inheritance](basic/24-inheritance/contracts/Inheritance.sol)
+25. [Shadowing Inherited State Variables](basic/25-shadowing-inherited-state-variables/contracts/ShadowingInherits.sol)
 
 ## Contributors
 
