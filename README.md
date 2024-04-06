@@ -52,6 +52,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 25. [Shadowing Inherited State Variables](basic/25-shadowing-inherited-state-variables/contracts/ShadowingInherits.sol)
 26. [Calling Parent Contracts](basic/26-calling-parent-contracts/contracts/CallingParentContracts.sol)
 27. [Visibility](basic/27-visibility/contracts/Visibility.sol)
+28. [Interface](basic/28-interface/contracts/Interface.sol)
 
 ## Contributors
 
