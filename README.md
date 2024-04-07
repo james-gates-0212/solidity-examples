@@ -59,6 +59,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 32. [Call](basic/32-call/contracts/Call.sol)
 33. [Delegatecall](basic/33-delegatecall/contracts/Delegatecall.sol)
 34. [Function Selector](basic/34-function-selector/contracts/FunctionSelector.sol)
+35. [Calling Other Contract](basic/35-calling-other-contract/contracts/CallingOtherContract.sol)
 
 ## Contributors
 
