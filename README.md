@@ -176,7 +176,7 @@ upgrade
 | Make architectural changes.                                   |  🏗️   | `:building_construction:`     |
 | Merge branches.                                               |  🔀   | `:twisted_rightwards_arrows:` |
 | Mock things.                                                  |  🤡   | `:clown_face:`                |
-| Move or rename resources (e.g.:` files, paths, routes).       |  🚚   | `:truck:`                     |
+| Move or rename resources (e.g.: files, paths, routes).        |  🚚   | `:truck:`                     |
 | Perform database related changes.                             |  🗃️   | `:card_file_box:`             |
 | Perform experiments.                                          |  ⚗️   | `:alembic:`                   |
 | Pin dependencies to specific versions.                        |  📌   | `:pushpin:`                   |
