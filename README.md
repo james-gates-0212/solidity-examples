@@ -53,7 +53,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 26. [Calling Parent Contracts](basic/26-calling-parent-contracts/contracts/CallingParentContracts.sol)
 27. [Visibility](basic/27-visibility/contracts/Visibility.sol)
 28. [Interface](basic/28-interface/contracts/Interface.sol)
-29. [Payable :construction:](basic/29-payable/contracts/Payable.sol)
+29. [Payable](basic/29-payable/contracts/Payable.sol)
 30. [Sending Ether (transfer, send, call)](basic/30-sending-ether/contracts/SendingEther.sol)
 
 ## Contributors
