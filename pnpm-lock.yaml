@@ -11,6 +11,12 @@ devDependencies:
   '@commitlint/config-conventional':
     specifier: ^19.1.0
     version: 19.1.0
+  commitlint:
+    specifier: ^19.2.1
+    version: 19.2.1(@types/node@20.12.4)(typescript@5.4.3)
+  commitlint-config-gitmoji:
+    specifier: ^2.3.1
+    version: 2.3.1
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -201,12 +207,36 @@ packages:
       find-up: 7.0.0
     dev: true
 
+  /@commitlint/types@17.8.1:
+    resolution: {integrity: sha512-PXDQXkAmiMEG162Bqdh9ChML/GJZo6vU+7F03ALKDK8zYc6SuAr47LjG7hGYRqUOz+WK0dU7bQ0xzuqFMdxzeQ==}
+    engines: {node: '>=v14'}
+    dependencies:
+      chalk: 4.1.2
+    dev: true
+
   /@commitlint/types@19.0.3:
     resolution: {integrity: sha512-tpyc+7i6bPG9mvaBbtKUeghfyZSDgWquIDfMgqYtTbmZ9Y9VzEm2je9EYcQ0aoz5o7NvGS+rcDec93yO08MHYA==}
     engines: {node: '>=v18'}
     dependencies:
       '@types/conventional-commits-parser': 5.0.0
       chalk: 5.3.0
+    dev: true
+
+  /@gitmoji/commit-types@1.1.5:
+    resolution: {integrity: sha512-8D3FZMRY+gtYpTcHG1SOGmm9CFqxNh6rI9xDoCydxHxnWgqInbdF3nk9gibW5gXA58Hf2cVcJaLEcGOKLRAtmw==}
+    dev: true
+
+  /@gitmoji/gitmoji-regex@1.0.0:
+    resolution: {integrity: sha512-+BFXxcWCxn0UIYuG1v5n9SfaCCS8tw95j1x3QsTJRdGGiihRyVLTHiu1wrHlzH3z4nYXKjCKiZFTdWwMjRI+gQ==}
+    dependencies:
+      emoji-regex: 10.3.0
+      gitmojis: 3.14.0
+    dev: true
+
+  /@gitmoji/parser-opts@1.4.0:
+    resolution: {integrity: sha512-zzmx/vtpdB/ijjUm7u9OzHNCXWKpSbzVEgVzOzhilMgoTBlUDyInZFUtiCTV+Wf4oCP9nxGa/kQGQFfN+XLH1g==}
+    dependencies:
+      '@gitmoji/gitmoji-regex': 1.0.0
     dev: true
 
   /@solidity-parser/parser@0.17.0:
@@ -283,6 +313,14 @@ packages:
       supports-color: 5.5.0
     dev: true
 
+  /chalk@4.1.2:
+    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
+    engines: {node: '>=10'}
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: true
+
   /chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
@@ -316,6 +354,35 @@ packages:
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    dev: true
+
+  /commitlint-config-gitmoji@2.3.1:
+    resolution: {integrity: sha512-T15ssbsyNc6szHlnGWo0/xvIA1mObqM70E9TwKNVTpksxhm+OdFht8hvDdKJAVi4nlZX5tcfTeILOi7SHBGH3w==}
+    dependencies:
+      '@commitlint/types': 17.8.1
+      '@gitmoji/commit-types': 1.1.5
+      '@gitmoji/parser-opts': 1.4.0
+      commitlint-plugin-gitmoji: 2.2.6
+    dev: true
+
+  /commitlint-plugin-gitmoji@2.2.6:
+    resolution: {integrity: sha512-oKHPHeNXby0Ix0ZbHVSK5ZyPx1V4fyBjLOy93cYwXhOEPXe36nkDc/HDPFfQpzx1vz39277TaP9LScbqTbscfQ==}
+    dependencies:
+      '@commitlint/types': 17.8.1
+      '@gitmoji/gitmoji-regex': 1.0.0
+      gitmojis: 3.14.0
+    dev: true
+
+  /commitlint@19.2.1(@types/node@20.12.4)(typescript@5.4.3):
+    resolution: {integrity: sha512-avW7E38gbdbUK7NIi/7gfkaKwlw8tjXy2HlmEdBS9A9+HeoHV1o/i96Sc9qjX0rKyPzKEsLi6cP3Wt3xM0kjEA==}
+    engines: {node: '>=v18'}
+    hasBin: true
+    dependencies:
+      '@commitlint/cli': 19.2.1(@types/node@20.12.4)(typescript@5.4.3)
+      '@commitlint/types': 19.0.3
+    transitivePeerDependencies:
+      - '@types/node'
+      - typescript
     dev: true
 
   /compare-func@2.0.0:
@@ -401,6 +468,10 @@ packages:
       is-obj: 2.0.0
     dev: true
 
+  /emoji-regex@10.3.0:
+    resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
+    dev: true
+
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: true
@@ -474,6 +545,10 @@ packages:
       split2: 4.2.0
     dev: true
 
+  /gitmojis@3.14.0:
+    resolution: {integrity: sha512-wPdXxKWfp2dJE6/ch8TDJjYdXvr+4uV67AEcbImj5QC4DmP6Byje1goJL8WgMPFnLY63eadK6oxtnSjdRFzS6g==}
+    dev: true
+
   /global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
     engines: {node: '>=18'}
@@ -484,6 +559,11 @@ packages:
   /has-flag@3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
+    dev: true
+
+  /has-flag@4.0.0:
+    resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
+    engines: {node: '>=8'}
     dev: true
 
   /human-signals@5.0.0:
@@ -812,6 +892,13 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       has-flag: 3.0.0
+    dev: true
+
+  /supports-color@7.2.0:
+    resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
+    engines: {node: '>=8'}
+    dependencies:
+      has-flag: 4.0.0
     dev: true
 
   /text-extensions@2.4.0:
