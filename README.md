@@ -57,7 +57,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 30. [Sending Ether (transfer, send, call)](basic/30-sending-ether/contracts/SendingEther.sol)
 31. [Fallback](basic/31-fallback/contracts/Fallback.sol)
 32. [Call](basic/32-call/contracts/Call.sol)
-33. [Delegate]
+33. [Delegatecall](basic/33-delegatecall/contracts/Delegatecall.sol)
 34. [Function Selector](basic/34-function-selector/contracts/FunctionSelector.sol)
 
 ## Contributors
@@ -178,7 +178,7 @@ upgrade
 | Make architectural changes.                                   |  🏗️   | `:building_construction:`     |
 | Merge branches.                                               |  🔀   | `:twisted_rightwards_arrows:` |
 | Mock things.                                                  |  🤡   | `:clown_face:`                |
-| Move or rename resources (e.g.:` files, paths, routes).       |  🚚   | `:truck:`                     |
+| Move or rename resources (e.g.: files, paths, routes).        |  🚚   | `:truck:`                     |
 | Perform database related changes.                             |  🗃️   | `:card_file_box:`             |
 | Perform experiments.                                          |  ⚗️   | `:alembic:`                   |
 | Pin dependencies to specific versions.                        |  📌   | `:pushpin:`                   |
