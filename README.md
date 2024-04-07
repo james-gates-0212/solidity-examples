@@ -57,6 +57,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 30. [Sending Ether (transfer, send, call)](basic/30-sending-ether/contracts/SendingEther.sol)
 31. [Fallback](basic/31-fallback/contracts/Fallback.sol)
 32. [Call](basic/32-call/contracts/Call.sol)
+33. [Delegatecall](basic/33-delegatecall/contracts/Delegatecall.sol)
 
 ## Contributors
 
