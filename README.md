@@ -58,6 +58,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 31. [Fallback](basic/31-fallback/contracts/Fallback.sol)
 32. [Call](basic/32-call/contracts/Call.sol)
 33. [Delegatecall](basic/33-delegatecall/contracts/Delegatecall.sol)
+34. [Function Selector](basic/34-function-selector/contracts/FunctionSelector.sol)
 
 ## Contributors
 
