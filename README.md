@@ -62,6 +62,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 35. [Calling Other Contract](basic/35-calling-other-contract/contracts/CallingOtherContract.sol)
 36. [Contract that creates other contracts](basic/36-contract-that-creates-other-contracts/contracts/CarFactory.sol)
 37. [Try Catch](basic/37-try-catch/contracts/TryCatch.sol)
+38. [Import](basic/38-import/contracts/Import.sol)
 
 ## Contributors
 
