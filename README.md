@@ -71,6 +71,7 @@ We enthusiastically welcome pull requests from all contributors. By actively par
 
 [![@james-gates-0212](https://github.com/james-gates-0212.png?size=150)](https://github.com/james-gates-0212)
 [![@clive-goldminer](https://github.com/clive-goldminer.png?size=150)](https://github.com/clive-goldminer)
+[![@dragon-8800](https://github.com/dragon-8800.png?size=150)](https://github.com/dragon-8800)
 
 ## License
 
