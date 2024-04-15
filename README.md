@@ -65,6 +65,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 38. [Import](basic/38-import/contracts/Import.sol)
 39. [Library](basic/39-library/contracts/Library.sol)
 40. [ABI Encode](basic/40-abi-encode/contracts/AbiEncode.sol)
+41. [ABI Decode](basic/41-abi-decode/contracts/AbiDecode.sol)
 
 ## Contributors
 
