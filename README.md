@@ -69,6 +69,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 42. [Hashing with Keccak256](basic/42-hashing-with-keccak256/contracts/HashWithKeccak256.sol)
 43. [Verifying Signature](basic/43-verifying-signature/contracts/VerifySignature.sol)
 44. [Gas Saving Techniques](basic/44-gas-saving-techniques/contracts/GasGolf.sol)
+45. [Bitwise Operators](basic/45-bitwise-operators/contracts/BitwiseOps.sol)
 
 ## Contributors
 
