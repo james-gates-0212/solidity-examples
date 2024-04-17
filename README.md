@@ -66,6 +66,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 39. [Library](basic/39-library/contracts/Library.sol)
 40. [ABI Encode](basic/40-abi-encode/contracts/AbiEncode.sol)
 41. [ABI Decode](basic/41-abi-decode/contracts/AbiDecode.sol)
+42. [Hashing with Keccak256](basic/42-hashing-with-keccak256/contracts/HashWithKeccak256.sol)
 
 ## Contributors
 
