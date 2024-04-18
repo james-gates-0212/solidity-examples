@@ -75,6 +75,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 48. [Assembly Conditional Statements](basic/48-assembly-conditional-statements/contracts/AssemblyIf.sol)
 49. [Assembly Loop](basic/49-assembly-loop/contracts/AssemblyLoop.sol)
 50. [Assembly Error](basic/50-assembly-error/contracts/AssemblyError.sol)
+51. [Assembly Math](basic/51-assembly-math/contracts/AssemblyMath.sol)
 
 ## Contributors
 
