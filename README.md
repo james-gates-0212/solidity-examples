@@ -73,6 +73,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 46. [Unchecked Math](basic/46-unchecked-math/contracts/UncheckedMath.sol)
 47. [Assembly Variable](basic/47-assembly-variable/contracts/AssemblyVariable.sol)
 48. [Assembly Conditional Statements](basic/48-assembly-conditional-statements/contracts/AssemblyIf.sol)
+49. [Assembly Loop](basic/49-assembly-loop/contracts/AssemblyLoop.sol)
 
 ## Contributors
 
