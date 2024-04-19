@@ -77,6 +77,10 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 50. [Assembly Error](basic/50-assembly-error/contracts/AssemblyError.sol)
 51. [Assembly Math](basic/51-assembly-math/contracts/AssemblyMath.sol)
 
+### Applications
+
+1. [Ether Wallet](applications/01-ether-wallet/contracts/EtherWallet.sol)
+
 ## Contributors
 
 We enthusiastically welcome pull requests from all contributors. By actively participating in submitting examples, we firmly believe that others will find them invaluable when embarking on their Solidity journey.
