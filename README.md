@@ -80,6 +80,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 ### Applications
 
 1. [Ether Wallet](applications/01-ether-wallet/contracts/EtherWallet.sol)
+2. [Multi-Sig Wallet](applications/02-multi-sig-wallet/contracts/MultiSigWallet.sol)
 
 ## Contributors
 
