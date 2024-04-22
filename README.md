@@ -81,6 +81,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 
 1. [Ether Wallet](applications/01-ether-wallet/contracts/EtherWallet.sol)
 2. [Multi-Sig Wallet](applications/02-multi-sig-wallet/contracts/MultiSigWallet.sol)
+3. [Merkle Tree](applications/03-merkle-tree/contracts/MerkleProof.sol)
 
 ## Contributors
 
