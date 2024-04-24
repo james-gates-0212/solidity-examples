@@ -84,6 +84,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 3. [Merkle Tree](applications/03-merkle-tree/contracts/MerkleProof.sol)
 4. [Iterable Mapping](applications/04-iterable-mapping/contracts/IterableMapping.sol)
 5. [ERC20](applications/05-erc20/contracts/ERC20.sol)
+6. [ERC721](applications/06-erc721/contracts/MyNFT.sol)
 
 ## Contributors
 
