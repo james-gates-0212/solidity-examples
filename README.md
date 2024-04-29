@@ -86,6 +86,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 5. [ERC20](applications/05-erc20/contracts/ERC20.sol)
 6. [ERC721](applications/06-erc721/contracts/MyNFT.sol)
 7. [ERC1155](applications/07-erc1155/contracts/MyMultiToken.sol)
+8. [Gasless Token Transfer :construction:](applications/08-gasless-token-transfer/contracts/GaslessTokenTransfer.sol)
 
 ## Contributors
 
