@@ -87,7 +87,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 6. [ERC721](applications/06-erc721/contracts/MyNFT.sol)
 7. [ERC1155](applications/07-erc1155/contracts/MyMultiToken.sol)
 8. [Gasless Token Transfer :construction:](applications/08-gasless-token-transfer/contracts/GaslessTokenTransfer.sol)
-9. [Simple Bytecode Contract :construction:](applications/09-simple-bytecode-contract/contracts/Factory.sol)
+9. [Simple Bytecode Contract](applications/09-simple-bytecode-contract/contracts/Factory.sol)
 10. [Precompute Contract Address with Create2](applications/10-precompute-contract-address-width-create2/contracts/Create2.sol)
 
 ## Contributors
