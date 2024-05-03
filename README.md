@@ -89,6 +89,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 8. [Gasless Token Transfer :construction:](applications/08-gasless-token-transfer/contracts/GaslessTokenTransfer.sol)
 9. [Simple Bytecode Contract](applications/09-simple-bytecode-contract/contracts/Factory.sol)
 10. [Precompute Contract Address with Create2](applications/10-precompute-contract-address-width-create2/contracts/Create2.sol)
+11. [Minimal Proxy Contract](applications/11-minimal-proxy-contract/contracts/MinimalProxy.sol)
 
 ## Contributors
 
