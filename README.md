@@ -91,6 +91,7 @@ Nearly all the smart contracts are accompanied by tests, so feel free to experim
 10. [Precompute Contract Address with Create2](applications/10-precompute-contract-address-width-create2/contracts/Create2.sol)
 11. [Minimal Proxy Contract](applications/11-minimal-proxy-contract/contracts/MinimalProxy.sol)
 12. [Upgradeable Proxy :construction:](applications/12-upgradeable-proxy/contracts/UpgradeableProxy.sol)
+13. [Deploy Any Contract](applications/13-deploy-any-contract/contracts/Proxy.sol)
 
 ## Contributors
 
